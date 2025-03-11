@@ -1,2 +1,4 @@
 # FrontEnd-Journey
-A hands-on front-end repository showcasing projects from basic HTML &amp; CSS to advanced JavaScript, Bootstrap, and performance optimization. Each project applies real-world skills to build responsive, interactive web pages. This repository documents my progress before moving to React in a separate repo.
+A comprehensive front-end development repository showcasing my learning journey through practical projects. It starts with foundational web technologies (HTML, CSS) and progresses through JavaScript, Bootstrap, SEO, performance optimization, and modern front-end techniques. This repository documents my growth before transitioning to React, which will have a separate repository for advanced projects.
+
+
