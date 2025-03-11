@@ -1,0 +1,68 @@
+#mode {
+  display: none;
+}
+.dark {
+  display: none;
+}
+body:has(#mode:checked) .light {
+  display: none;
+}
+body:has(#mode:checked) .dark {
+  display: inline;
+}
+body:has(#mode:checked) #navbar {
+  background-color: #171717;
+  color: white;
+}
+
+body:has(#mode:checked) .logo {
+  color: #ffffff;
+}
+body:has(#mode:checked) .nav-links a,
+body:has(#mode:checked) p,
+body:has(#mode:checked) .main-title h2,
+body:has(#mode:checked) .card-content span {
+  color: #9f9f9f;
+}
+body:has(#mode:checked)
+  .nav-links:has(a[href="home"]:first-child)
+  a[href="home"],
+body:has(#mode:checked) h2,
+body:has(#mode:checked) h3,
+body:has(#mode:checked) .main-title p,
+body:has(#mode:checked)  .btn-group .video-btn  {
+  color: white;
+}
+
+body:has(#mode:checked) .header,
+body:has(#mode:checked) .gallery {
+  background-color: #252525;
+}
+
+body:has(#mode:checked) .chefs,
+body:has(#mode:checked) .contact {
+  background-color: #202020;
+}
+body:has(#mode:checked) .main-title span,
+body:has(#mode:checked) .logo::after,
+body:has(#mode:checked) .contact-details li i {
+  color: #c17e20;
+}
+body:has(#mode:checked) .main-btn,
+body:has(#mode:checked) .nav-links a::before,
+body:has(#mode:checked) .details .icon {
+  background-color: #c17e20;
+}
+body:has(#mode:checked) .main-btn:hover{
+  background-color: #f8a128;
+}
+body:has(#mode:checked) .btn-group .video-btn:hover{
+    color: #f8a128;
+  }
+body:has(#mode:checked) .video-btn .icon {
+    background-image: linear-gradient(to right, #c17e20 0 50%, transparent 50% 100%);
+}
+body:has(#mode:checked) .card-content,
+body:has(#mode:checked) .video-btn .icon i{
+    background-color: #171717;
+}

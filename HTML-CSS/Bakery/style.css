@@ -1,0 +1,379 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Alegreya", sans-serif;
+    line-height: 1.6;
+    
+  }
+  p{
+    font-family: "Alegreya";
+    
+  }
+/* Header */  
+#header {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    overflow: auto;
+  }
+#header img{
+   width: 176.5px;
+   margin-top: 20px;
+ }
+ .nav{
+    float: right;
+    margin-top: 30px;
+ }
+.nav ul{
+    list-style: none;
+    vertical-align: middle;
+
+}
+.nav li{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: Alegreya;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0px 15px;
+}
+
+
+#top-section{
+    background: url(Imgs/drew-coffman-1872.jpg) no-repeat center 38%;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#top-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+/*Absolute Icons*/
+.absolute-position{
+    background-color: #ffff;
+    width: 42px;
+    height: 85px;
+    border-radius: 3px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    z-index: 2;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.absolute-position ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.absolute-position li{
+   width: 70%;
+   margin: auto;
+}
+.absolute-position img{
+    width: 100%;
+    padding: 3px;
+    
+}
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 170px 20px;
+    color: #fff;
+    width: 50%;
+    margin: auto ;
+    position: relative;
+    z-index: 2;
+  }
+#hero .p1{
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #ffffffeb;
+    
+}
+#hero h1{
+    font-size: 76px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    font-weight: 400;
+}  
+#hero .p2{
+    font-size: 24px;
+    color: #ffffffeb;
+    line-height: 1.8;
+    margin: 10px 0px 50px;  
+}
+.hero-buttons{
+    text-align: center;
+}
+.hero-buttons .a1,
+.hero-buttons .a2{
+    padding: 20px 25px;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-buttons .a1{
+    background-color: #8e7754;
+    
+}
+.hero-buttons .a2{
+    border: 1px solid;
+}
+/* First section */ 
+#who_we_are{
+    background-color: #ffffffff;
+    padding: 90px 10%;
+    width: 100%;
+    margin: auto;
+}
+.whoWeAre-img{
+    width: 47%;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+#who_we_are div{
+    width: 47%;
+    display: inline-block;
+    vertical-align:middle;
+
+}
+#who_we_are h2{
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #303030;
+    font-weight: 400;
+}
+.whoWeAre-p{
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.spans ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+.spans li{
+    margin-bottom: 20px;
+   width: 400px;
+}
+.spans img{
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .15);;
+    object-fit: cover ;
+}
+.spans p{
+    color: #686868;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*Second Section ---> Our Location*/
+#our-location,
+#Contact-info{
+    background-color: #f8f8f8;
+    padding: 90px 10%;
+    margin: auto;
+}
+#our-location div,
+#Contact-info div{
+    width: 46%;
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 80px;
+}
+#our-location h2,
+#Contact-info h2{
+    color: #303030;
+    font-size: 32px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+#our-location p{
+    margin-bottom: 20px;
+}
+#our-location p,
+#Contact-info p{
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.8;
+}
+#our-location img,
+#Contact-info img{
+    width: 47%;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align:middle;
+
+}
+/*Our Baking*/
+#our-baking{
+    margin: auto;
+    padding: 80px 7%;
+  
+}
+.our-baking-first-div{
+    text-align: center;
+}
+.our-baking-first-div h3{
+    font-size: 30px;
+    color: #303030;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.our-baking-first-div p{
+    font-size: 17px;
+    color: #888888;
+    margin-top: 17px;
+    margin-bottom: 70px;
+    font-family: sans-serif;
+}
+.type-of-baking div{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    width: 30%;
+    margin-left: 30px;
+    
+}
+.type-of-baking img{
+    width: 100%;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+.type-of-baking h4{
+    color: #303030;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.type-of-baking p{
+    color: #888888;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.86em;
+}
+#Contact-info .p1{
+    margin-bottom: 30px;
+}
+#Contact-info .spans img{
+    background-color: #8e7754;
+    color: #ffff;
+    width: 36px;
+    height: 36px;
+    
+}
+/*Footer Main*/
+.last-div{
+    position: relative;
+}
+.last-div .absolute-contact-details {
+    position: absolute;
+}
+.absolute-contact-details img{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+#footer-main{
+    padding: 60px 140px 52px;
+    background-color: #403d38;
+    overflow: auto;
+    height: 438px;
+}
+#footer-main div{
+    width: 278px;
+    margin: 0px 15px;
+    float: left;
+    
+}
+#footer-main h4{
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.footer-p{
+    margin-bottom: 20px;
+}
+#footer-main p,
+.footer-p{
+    color: #969696;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.arrow-icon ul{
+    list-style: none;  
+    width:270px;
+}
+.arrow-icon li{
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+.arrow-icon img{
+    width: 16px;
+    height: 16px;
+   display: inline-block;
+   vertical-align: middle;
+}
+/*Footer Logo*/
+.footer-logo{
+    background-color: #353330;
+    height: 324px;
+    padding: 50px 0px 40px;
+    
+}
+.footer-logo div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.footer-logo img{
+    margin: 10px 0px 25px;
+}
+.footer-logo p{
+    color: #777;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-icons img{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    background-color: #484540;
+    border-radius: 50%;
+    margin-top: 23px;
+}

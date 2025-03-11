@@ -1,0 +1,15 @@
+@keyframes wordSwitch {
+    0%  { content: "|"; }
+    10% { content: "D|"; }
+    20% { content: "De|"; }
+    30% { content: "Dev|"; }
+    40% { content: "Deve|"; }
+    50% { content: "Devel|"; }
+    60% { content: "Develo|"; }
+    70% { content: "Develop|"; }
+    80% { content: "Develope|"; }
+    90% { content: "Developer|"; }  
+    95% { content: "Developer|"; }  
+    100% { content: "Developer|"; } 
+}
+

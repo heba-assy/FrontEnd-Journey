@@ -1,0 +1,112 @@
+@keyframes wordSwitch{
+    0%{
+        content: "|";
+    }
+    10%{
+        content: "D|";
+    }
+    20%{
+        content: "De|";
+    }
+    40%{
+        content: "Des|";
+    }
+    50%{
+        content: "Desi|";
+    }
+    60%{
+        content: "Desig|";
+    }
+    80%{
+        content: "Design|";
+    }
+    90%{
+        content: "Designe|";
+    }
+    100%{
+        content: "Designer|";
+    }
+    90%{
+        content: "Designe|";
+    }
+    80%{
+        content: "Design|";
+    }
+    60%{
+        content: "Desig|";
+    }
+    50%{
+        content: "Desi|";
+    }
+    40%{
+        content: "Des|";
+    }
+    20%{
+        content: "De|";
+    }
+    10%{
+        content: "D|";
+    }
+    0%{
+        content: "|";
+    }
+    /*=========Developer===========*/
+    5%{
+        content: "|";
+    }
+    10%{
+        content: "D|";
+    }
+    20%{
+        content: "De|";
+    }
+    30%{
+        content: "Dev|";
+    }
+    40%{
+        content: "Deve|";
+    }
+    50%{
+        content: "Devel|";
+    }
+    60%{
+        content: "Develo|";
+    }
+    70%{
+        content: "Develop|";
+    }
+    90%{
+        content: "Develope|";
+    }
+    100%{
+        content: "Developer|";
+    }
+    90%{
+        content: "Develope|";
+    }
+    80%{
+        content: "Develop|";
+    }
+    70%{
+        content: "Develo|";
+    }
+    60%{
+        content: "Devel|";
+    }
+    50%{
+        content: "Deve|";
+    }
+    40%{
+        content: "Dev|";
+    }
+    30%{
+        content: "De|";
+    }
+    10%{
+        content: "D|";
+    }
+    0%{
+        content: "|";
+    }
+}
+
